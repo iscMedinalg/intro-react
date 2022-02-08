@@ -1,0 +1,37 @@
+.ModalForm{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ModalLabel {
+    font-size: 30px;
+}
+
+.ModalText {
+    width: 80%;
+    height: 60%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ModalButtons {
+    width: 60%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Buttons {
+    width: 40%;
+    height: 80%;
+    border-radius: 10px;
+    font-size: 100%;
+
+}

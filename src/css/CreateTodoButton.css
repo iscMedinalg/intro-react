@@ -1,0 +1,24 @@
+.SectionButton {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    left: 85%;
+    width: 100%;
+    
+}
+
+.CreateTodoButton{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid green;
+    background-color: rgb(94, 124, 12);
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
+
+.CreateTodoButton:hover {
+    cursor: pointer; 
+}

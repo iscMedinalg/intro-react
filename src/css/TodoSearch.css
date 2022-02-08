@@ -1,0 +1,13 @@
+.TodoSearch{
+    
+    width: 80%;
+    height: 50px;
+    border: 1px rgb(119, 119, 99) solid;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.SearchSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

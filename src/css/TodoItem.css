@@ -1,0 +1,44 @@
+.TodoItem {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(221, 241, 41);
+}
+.Icon{
+    color: #a76363;
+}
+
+#IconCheck {
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#IconCheck:hover {
+    cursor: pointer;
+}
+
+#IconDelete:hover {
+    color: #c20707;
+    cursor: pointer;
+}
+
+#IconDelete {
+    padding-right: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
+.Icon-check--activate{
+    color: #3a65b4;
+}
